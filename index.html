@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gasmi.dev | مطور واجهات أمامية</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- القائمة العلوية -->
+    <header class="navbar">
+    <div class="container">
+        <h1 class="logo">Gasmi.dev</h1>
+        <nav>
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#projects">المشاريع</a></li>
+            <li><a href="#contact">تواصل</a></li>
+        </ul>
+        </nav>
+    </div>
+    </header>
+
+
+  <!-- قسم الصفحة التعريفية -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="text">
+          <h1>مرحبًا، أنا <span>جهاد</span></h1>
+          <h2>مطور <span class="typed-text"></span></h2>
+          <p>أصمم وأطوّر مواقع ويب عصرية وسريعة، متجاوبة مع جميع الأجهزة باستخدام تقنيات حديثة.</p>
+          <a href="#contact" class="btn">تواصل معي</a>
+        </div>
+        <div class="image">
+          <img src="assets/profile.jpg" alt="صورة جهاد - Gasmi.dev" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- سكربت التأثير الكتابي -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        const typed = new Typed(".typed-text", {
+        strings: ["واجهات أمامية", "مواقع سريعة", "تجربة مستخدم حديثة"],
+        typeSpeed: 70,
+        backSpeed: 40,
+        loop: true
+        });
+    </script>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title">مهاراتي</h2>
+        <div class="skills-grid">
+        <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="60" />
+            <p>HTML</p>
+        </div>
+        <div class="skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="60" />
+            <p>CSS</p>
+        </div>
+        <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" />
+            <p>JavaScript</p>
+        </div>
+        <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="60" />
+            <p>React</p>
+        </div>
+        <div class="skill">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind CSS" width="60" />
+            <p>Tailwind</p>
+        </div>
+        <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="60" />
+            <p>Git & GitHub</p>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+            <!-- قسم المشاريع -->
+    <section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">مشاريعي</h2>
+        <div class="projects-grid">
+        <div class="project-card">
+            <img src="assets/agency.png" alt="مشروع صفحة هبوط" />
+            <h3>صفحة هبوط لوكالة رقمية</h3>
+            <p>Landing page حديثة باستخدام HTML و CSS و تأثيرات جمالية.</p>
+            <a href="https://gasmi-dev.github.io/portfolio-landing/" target="_blank" class="btn">عرض المشروع</a>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/placeholder.png" alt="مشروع قادم" />
+            <h3>مشروع قادم</h3>
+            <p>سيتم إضافته قريبًا ضمن خطة تطوير المعرض الخاص بي.</p>
+            <a href="#" class="btn disabled">قريبًا</a>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">تواصل معي</h2>
+        <form class="contact-form">
+        <input type="text" placeholder="الاسم الكامل" required>
+        <input type="email" placeholder="البريد الإلكتروني" required>
+        <textarea placeholder="رسالتك..." rows="5" required></textarea>
+        <button type="submit" class="btn">إرسال</button>
+        </form>
+
+        <div class="social-links">
+        <a href="mailto:gasmi.djihad.5@gmail.com" target="_blank">📧 البريد</a>
+        <a href="https://github.com/gasmi-dev" target="_blank">💻 GitHub</a>
+        <a href="https://www.linkedin.com/in/gasmi-djihad" target="_blank">🔗 LinkedIn</a>
+        </div>
+    </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+    <div class="container">
+        <p>© 2025 جميع الحقوق محفوظة لـ Gasmi.dev</p>
+    </div>
+    </footer>
+
+
+</body>
+</html>
